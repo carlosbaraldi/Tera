@@ -31,7 +31,7 @@ nav ol li {
 
 /* MAIN */
 main {
-    background-color: #F2F2F2;
+    background-color: #000000;
     display         : flex;
     justify-content : center;
     padding         : 74px 0 108px;
@@ -46,15 +46,31 @@ main {
     height         : 560px;
     justify-content: space-around;
     width          : 70%;
+    
 }
 
-.textp {
+.texto {
     margin-right: 108px;
     width       : 50%;
 }
 
 .imagem {
     width: 50%;
+}
+
+.imagem img{
+    border-radius: 80%;
+}
+
+.descricao {
+    font-family: 'Helvetica', Sans-serif;
+    font-size  : 24px;
+    font-weight: 300;
+    line-height: 29px;
+    margin     : 24px 0;
+    text-align : justify;
+    color: rgb(255, 255, 255);
+
 }
 
 
@@ -65,10 +81,11 @@ h1 {
     font-weight: 400;
     line-height: 112px;
     margin     : unset;
+    color: white;
 }
 
 h1 span {
-    color         : gray;
+    color         : rgb(138, 138, 138);
     font-family   : 'Playfair Display', serif;
     font-style    : italic;
     letter-spacing: -2px;
@@ -90,7 +107,7 @@ h2 {
 footer {
     align-items     : center;
     flex-direction  : column;
-    background-color: #000;
+    background-color: rgb(26, 26, 26);
     color           : #fff;
     display         : flex;
     height          : 572px;
@@ -142,10 +159,15 @@ footer {
     text-decoration: none;
 }
 
-#redes-sociais div {
+
+
+#redes-sociais div{
     display   : flex;
     list-style: none;
 }
+
+
+
 
 footer div a {
     color          : #fff;
